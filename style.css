@@ -1,0 +1,71 @@
+body {
+    background-image: url("acuarelaBosque.PNG");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.box {
+    display: flex;
+}
+
+h1 {
+    color:mediumseagreen;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+}
+
+p.linea {
+    color:darkgray;
+}
+
+span.negrita {
+    font-weight: bold;
+}
+
+span.cobre {
+    color:rgb(248, 165, 41); 
+}
+
+.borde {
+    border: solid;
+}
+
+.recuadro1 {
+    height: 90vh;
+
+}
+
+.recuadro2 {
+    width: 20%;
+    height: 100vh;
+    background-color:black;
+}
+
+.img {
+    display:block;
+    margin:auto;
+    margin-top: 35px;
+}
+
+.franja {
+    height: 8%;
+}
+
+.divFuera {
+    width: 80%;
+}
+
+.bordeBlanco {
+    border: solid white;
+}
+
+.total {
+    width: 100%;
+}
+
