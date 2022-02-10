@@ -1,4 +1,4 @@
-body {
+.fondo {
     background-image: url("acuarelaBosque.PNG");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -38,19 +38,20 @@ span.cobre {
 
 .recuadro1 {
     height: 90vh;
-
+    /*margin-left: 0px;*/
 }
 
 .recuadro2 {
-    width: 20%;
+    width: 25%;
     height: 100vh;
     background-color:black;
+    color:white;
 }
 
 .img {
     display:block;
     margin:auto;
-    margin-top: 35px;
+    margin-top: 60px;
 }
 
 .franja {
@@ -58,7 +59,7 @@ span.cobre {
 }
 
 .divFuera {
-    width: 80%;
+    width: 75%;
 }
 
 .bordeBlanco {
