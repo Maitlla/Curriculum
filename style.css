@@ -9,11 +9,13 @@
 }
 
 h1 {
-    color:mediumseagreen;
+    color: black;
 }
 
-.cursiva {
+h2.cursiva {
     font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -21,24 +23,25 @@ p {
 }
 
 p.linea {
-    color:darkgray;
+    color:rgb(204, 209, 208);
 }
 
 span.negrita {
+    color: white;
     font-weight: bold;
 }
 
 span.cobre {
-    color:rgb(248, 165, 41); 
+    color: white; 
+    background-color: black;
 }
 
 .borde {
-    border: solid;
+    border: solid 3px;
 }
 
 .recuadro1 {
-    height: 90vh;
-    /*margin-left: 0px;*/
+    height: 85.5vh;
 }
 
 .recuadro2 {
@@ -46,16 +49,63 @@ span.cobre {
     height: 100vh;
     background-color:black;
     color:white;
+    text-align: center;
+}
+
+.padding {
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 60px;
 }
 
 .img {
     display:block;
     margin:auto;
     margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 100px;
+}
+
+.contenedor {
+    display:block;
+    margin: auto;
+    padding-bottom: 50px;
+  
+}
+
+.habilidades {
+    position: relative; 
+   
+}
+
+.centrado {
+    position: absolute;
+    left: 50%;
+    transform: translate(-30%, -100%);
+}
+
+.circulo {
+    display:block;
+    margin: auto;
+    border: solid 5px;
+    color:rgb(255, 255, 224);
+    border-radius: 100px;
+    background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
+    
+}
+
+.hechizos {
+    color:rgb(255, 147, 6);
+    font-weight: bold;
+}
+
+.encantamientos {
+    color:mediumslateblue;
 }
 
 .franja {
-    height: 8%;
+    height: 7%;
+    text-align: center;
 }
 
 .divFuera {
@@ -63,10 +113,42 @@ span.cobre {
 }
 
 .bordeBlanco {
-    border: solid white;
+    border: solid white 6px;
 }
 
 .total {
     width: 100%;
 }
 
+span {
+    color: transparent;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.negro {
+    color:white;
+    background-color: black;
+    width: 32%;
+}
+
+h3 {
+    text-decoration: underline 1px;
+
+}
+
+.contacto {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.laboral {
+    position: relative;
+    left: 70%;
+}
