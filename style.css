@@ -39,9 +39,14 @@ span.negrita {
     font-weight: bold;
 }
 
-span.cobre {
+span.black {
     color: white; 
     background-color: black;
+}
+
+.Curriculum {
+    color: white;
+    text-align: left;
 }
 
 .borde {
@@ -63,7 +68,7 @@ span.cobre {
 .padding {
     padding-left: 60px;
     padding-right: 50px;
-    padding-top: 60px;
+    padding-top: 92px;
 }
 
 .img {
@@ -161,32 +166,82 @@ h3 {
     left: 70%;
 }
 
+
+
 /* */
 
 .ancho {
     width: 21vh;
 }
 
-.menuCSS3 ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+
+
+.sectionAbajo {
+    padding-top: 100px;
+
 }
-.menuCSS3 a {
-    display: block;
-    padding: 2em;
-    background-color: mediumslateblue;
-    text-decoration: none;
-    color: #191C26;
+
+
+
+/* INICIO: MENÚS DESPLEGABLES */
+
+nav{
+   
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	z-index: 5;
 }
-.menuCSS3 a:hover {
-    background-color: rgb(255, 147, 6);
+
+/*
+nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	z-index: 5;
 }
-.menuCSS3 ul li ul {
-    display: none;
+
+*/
+
+.con-menu ul{
+	display:flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-    display: block;
+
+.con-menu a{
+	display: block;
+	padding: 19px 100px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
 }
+
+.con-menu a:hover  {
+  background-color: mediumslateblue;
+}
+
+.con-menu ul li ul {
+	display: none;
+}
+
+.con-menu ul li a:hover + ul, .con-menu ul li ul:hover {
+	display: block;
+}
+
+/* FIN: MENÚS DESPLEGABLES */
+
+
 
