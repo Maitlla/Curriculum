@@ -1,3 +1,4 @@
+/*
 function main() {
     console.log("Starting...");
 
@@ -12,10 +13,10 @@ function main() {
         item.addEventListener("pointerenter",()=>{console.log("POP!")})
         //console.log(item)
 
-
-
     }
     
+
+
 
     const a = ()=>{const z = 1; const x = 2; return x}
 
@@ -32,17 +33,16 @@ function main() {
             });
             return obj
         }
-     
-
-  
-
 
 }
 
+        
 //function imprimeHola(){
     //console.log("Hola");
 //}
 
 
-window.addEventListener("load",main);
+//window.addEventListener("load",main);
+
+*/
 
