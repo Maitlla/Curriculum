@@ -1,7 +1,14 @@
 .fondo {
     background-image: url("acuarelaBosque.PNG");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-position: center bottom; */
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
 }
 
 .box {
@@ -10,6 +17,7 @@
 
 h1 {
     color: black;
+    margin-top: 0px;
 }
 
 h2.cursiva {
@@ -104,7 +112,7 @@ span.cobre {
 }
 
 .franja {
-    height: 7%;
+    height: 4%;
     text-align: center;
 }
 
@@ -151,5 +159,34 @@ h3 {
 .laboral {
     position: relative;
     left: 70%;
+}
+
+/* */
+
+.ancho {
+    width: 21vh;
+}
+
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: mediumslateblue;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: rgb(255, 147, 6);
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
 }
 
