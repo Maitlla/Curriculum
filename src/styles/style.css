@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url("acuarelaBosque.PNG");
+    background-image: url("/src/img/acuarelaBosque.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ span.black {
 .padding {
     padding-left: 60px;
     padding-right: 50px;
-    padding-top: 92px;
+    padding-top: 100px;
 }
 
 .img {
@@ -186,7 +186,6 @@ h3 {
 /* INICIO: MENÚS DESPLEGABLES */
 
 nav{
-   
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -197,21 +196,6 @@ nav{
 	text-align: center;
 	z-index: 5;
 }
-
-/*
-nav{
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 60px;
-	color: white;
-	background-color: black;
-	text-align: center;
-	z-index: 5;
-}
-
-*/
 
 .con-menu ul{
 	display:flex;
