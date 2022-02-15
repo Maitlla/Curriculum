@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url("/src/img/acuarelaBosque.png");
+    background-image: url("./img/acuarelaBosque.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,6 +18,7 @@
 h1 {
     color: black;
     margin-top: 0px;
+    display: none;
 }
 
 h2.cursiva {
@@ -58,6 +59,7 @@ span.black {
 }
 
 .recuadro2 {
+    margin-top: 60px;
     width: 25%;
     height: 100vh;
     background-color:black;
@@ -186,11 +188,11 @@ h3 {
 /* INICIO: MENÚS DESPLEGABLES */
 
 nav{
-	position: fixed;
+	position: fixed; 
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 60px;
+	height: 10vh;
 	color: white;
 	background-color: black;
 	text-align: center;

@@ -1,4 +1,12 @@
 
+function main() {
+    console.log("Starting...");
+
+
+    }
+
+
+
 /*
 function main() {
     console.log("Starting...");
@@ -16,9 +24,6 @@ function main() {
 
     }
     
-
-
-
     const a = ()=>{const z = 1; const x = 2; return x}
 
     const counters = elements.map(
@@ -36,14 +41,11 @@ function main() {
         }
 
 }
-
-        
+       
 //function imprimeHola(){
     //console.log("Hola");
 //}
 
-
-//window.addEventListener("load",main);
-
 */
 
+window.addEventListener("load",main);
