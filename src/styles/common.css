@@ -1,4 +1,4 @@
-.fondo {
+fondo {
     background-image: url("./img/acuarelaBosque.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,8 @@
 h1 {
     color: black;
     margin-top: 0px;
-    display: none;
+    display: none; 
+    text-align: center;
 }
 
 h2.cursiva {
@@ -59,7 +60,7 @@ span.black {
 }
 
 .recuadro2 {
-    margin-top: 60px;
+    margin-top: 0px;
     width: 25%;
     height: 100vh;
     background-color:black;
@@ -188,11 +189,11 @@ h3 {
 /* INICIO: MENÚS DESPLEGABLES */
 
 nav{
-	position: fixed; 
+	/*position: fixed; */
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 10vh;
+	height: 1git0vh;
 	color: white;
 	background-color: black;
 	text-align: center;
@@ -228,6 +229,5 @@ nav{
 }
 
 /* FIN: MENÚS DESPLEGABLES */
-
 
 
