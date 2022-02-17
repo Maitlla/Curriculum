@@ -74,9 +74,22 @@ nav{
 
 /* MAIN */
 
-.flex {
+.flexp {
     display:flex;
+    gap: 5%;
+    border: 2px solid black;
+}
+
+.flex1 {
     
+    width: 75%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+
+.flex2 {
+    border: 2px solid blue;
 }
 
 
