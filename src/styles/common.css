@@ -13,7 +13,7 @@ fondo {
     background-size: 100% 100%; /*estandar css3*/
 }
 
-/* CABECERA */
+/* HEADER */
 
 h1 {
     color: black;
@@ -27,49 +27,86 @@ h1 {
 }
 
 
-/* INICIO: MENÚS DESPLEGABLES */
+/* NAVEGADOR */
 
 nav{
 	position: fixed; 
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 1git0vh;
+	height: 8.2vh;
 	color: white;
 	background-color: black;
 	text-align: center;
 	z-index: 5;
 }
 
+/* INICIO: MENÚS DESPLEGABLES */
+
 .con-menu ul{
 	display:flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 }
 
 .con-menu a{
 	display: block;
-	padding: 19px 100px;
+	padding: 10px 100px;
 	text-decoration: none;
 	color: white;
 	background-color: black;
 }
 
 .con-menu a:hover  {
-  background-color: mediumslateblue;
+    background-color: rgb(112, 34, 255);
 }
+
 
 .con-menu ul li ul {
 	display: none;
 }
 
+
 .con-menu ul li a:hover + ul, .con-menu ul li ul:hover {
-	display: block;
-} 
+	display: inline-block;
+}
+
+.anchoTotal {
+	width: 25vh;
+}
+
+.submenu {
+	width: 25vh;
+	height: 0.6vh;
+}
 
 /* FIN: MENÚS DESPLEGABLES */
+
+
+/*
+
+.bottom-top{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	color: white;
+	background-color: gainsboro;
+	font-size: 25px;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	
+}
+
+*/
+
+
+
 
 
 

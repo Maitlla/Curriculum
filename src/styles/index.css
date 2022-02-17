@@ -4,13 +4,21 @@ h3 {
 }
 
 .circulo {
-    display:block;
+    display: block;
     margin: auto;
     border: solid 5px;
     color:rgb(255, 255, 224);
     border-radius: 100px;
     background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
     
+}
+
+.img {
+    display: block;
+    margin: 2%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 100px;
 }
 
 .hechizos {
