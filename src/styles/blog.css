@@ -1,8 +1,40 @@
-h3 {
-    text-decoration: underline 1px;
+
+/* MAIN */
+
+/* para el Flex */
+
+.flexp {
+    display:flex;
+    gap: 3%;
+    /*border: 2px solid rgb(241, 241, 241); */
+}
+
+.flex1 {
+    
+    min-width: 45vh;
+    padding: 2%;
 
 }
 
-.espacioAbajo {
-    margin-bottom: 10%;
+
+.flex2 {
+    width: 25vh;
+    margin-right: 1.5vh;
+    background-color:rgb(238, 238, 238);
+    
 }
+
+
+/* padding-top espacio superior */
+
+.espacioSuperior {
+    padding-top:6%;
+}
+
+.espacioInferior {
+    padding-bottom: 20%;
+}
+
+
+
+
