@@ -5,21 +5,22 @@ function app() {
     const even = [] //par    si el módulo es 0
 
     for (let item of numbers) {
+
         console.log("item:", item);
 
-        // let item = numbers[i];
+        if(item % 2 === 0){
+        
+            alert("El número "+numbers+" es par");
+        
+        }else{
+            
+            alert("El número "+numbers+" es impar");
+            
+        }
 
- 
-
-        // Put your code here
-
-
-
+        console.log("odd:", odd);
+        console.log("even:", even);
     }
-
-    console.log("odd:", odd);
-    console.log("even:", even);
-}
 
 
 

@@ -1,3 +1,5 @@
+/* FONDO */
+
 fondo {
     background-image: url("./img/acuarelaBosque.png");
     background-repeat: no-repeat;
@@ -11,9 +13,7 @@ fondo {
     background-size: 100% 100%; /*estandar css3*/
 }
 
-.box {
-    display: flex;
-}
+/* CABECERA */
 
 h1 {
     color: black;
@@ -22,19 +22,75 @@ h1 {
     text-align: center;
 }
 
-h2.cursiva {
-    font-style: italic;
-    padding-top: 5px;
-    padding-bottom: 30px;
+
+.box {
+    display: flex;
 }
+
+
+/* INICIO: MENÚS DESPLEGABLES */
+
+nav{
+	/*position: fixed; */
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1git0vh;
+	color: white;
+	background-color: black;
+	text-align: center;
+	z-index: 5;
+}
+
+.con-menu ul{
+	display:flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.con-menu a{
+	display: block;
+	padding: 19px 100px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+.con-menu a:hover  {
+  background-color: mediumslateblue;
+}
+
+.con-menu ul li ul {
+	display: none;
+}
+
+.con-menu ul li a:hover + ul, .con-menu ul li ul:hover {
+	display: block;
+}
+
+/* FIN: MENÚS DESPLEGABLES */
+
+/* MAIN */
+
+.flex {
+    display:flex;
+    
+}
+
+
+
+
+/* footer */
+
+/*
 
 p {
     font-weight: bold;
 }
 
-p.linea {
-    color:rgb(204, 209, 208);
-}
+
 
 span.negrita {
     color: white;
@@ -101,24 +157,9 @@ span.black {
     transform: translate(-30%, -100%);
 }
 
-.circulo {
-    display:block;
-    margin: auto;
-    border: solid 5px;
-    color:rgb(255, 255, 224);
-    border-radius: 100px;
-    background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
-    
-}
 
-.hechizos {
-    color:rgb(255, 147, 6);
-    font-weight: bold;
-}
 
-.encantamientos {
-    color:mediumslateblue;
-}
+
 
 .franja {
     height: 4%;
@@ -141,9 +182,7 @@ span {
     color: transparent;
 }
 
-.derecha {
-    text-align: right;
-}
+
 
 .negro {
     color:white;
@@ -167,7 +206,7 @@ span {
 
 
 
-/* */
+
 
 .ancho {
     width: 21vh;
@@ -180,50 +219,8 @@ span {
 
 }
 
+*/
 
 
-/* INICIO: MENÚS DESPLEGABLES */
-
-nav{
-	/*position: fixed; */
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 1git0vh;
-	color: white;
-	background-color: black;
-	text-align: center;
-	z-index: 5;
-}
-
-.con-menu ul{
-	display:flex;
-	justify-content: center;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.con-menu a{
-	display: block;
-	padding: 19px 100px;
-	text-decoration: none;
-	color: white;
-	background-color: black;
-}
-
-.con-menu a:hover  {
-  background-color: mediumslateblue;
-}
-
-.con-menu ul li ul {
-	display: none;
-}
-
-.con-menu ul li a:hover + ul, .con-menu ul li ul:hover {
-	display: block;
-}
-
-/* FIN: MENÚS DESPLEGABLES */
 
 

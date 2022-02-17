@@ -3,4 +3,37 @@ h3 {
 
 }
 
+.circulo {
+    display:block;
+    margin: auto;
+    border: solid 5px;
+    color:rgb(255, 255, 224);
+    border-radius: 100px;
+    background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
+    
+}
+
+.hechizos {
+    color:rgb(255, 147, 6);
+    font-weight: bold;
+}
+
+.encantamientos {
+    color:mediumslateblue;
+}
+
+p.linea {
+    color:rgb(204, 209, 208);
+}
+
+h2.cursiva {
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.derecha {
+    text-align: right;
+}
+
 
