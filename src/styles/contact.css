@@ -1,0 +1,83 @@
+/* MAIN */
+
+/* para el Flex */
+
+.flexp {
+    display: flex;
+    gap: 3%;
+    /*border: 2px solid rgb(241, 241, 241); */
+}
+
+.flex1 {
+    
+    min-width: 45vh;
+    padding: 2%;
+
+}
+
+
+.flex2 {
+    width: 25vh;
+    margin-right: 1.5vh;
+    background-color:rgb(238, 238, 238);
+    
+}
+
+
+/* para dar espacio entre noticias */
+
+.espacioSuperior {
+    padding-top:6%;
+}
+
+.espacioInferior {
+    padding-bottom: 20%;
+}
+
+
+/* INICIO: FORMULARIO */
+
+body {
+    font-family: tahoma;
+
+}
+
+legend {
+    font-weight: bold;
+}
+
+form {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+fieldset {
+    font-size: 13px;
+    background-color:rgb(238, 238, 238);
+    width: 50%;
+    padding: 10px;
+    /*margin: 0 auto; */
+
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: rgb(112, 34, 255);
+    color:#ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 8px 10px 8px 10px;
+}
+
+.formuCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* FIN: FORMULARIO */
+
