@@ -123,6 +123,11 @@ input[type="submit"]{
     padding-bottom: 30%;
 }
 
+.radio {
+    display: flex;
+    align-items: center;
+}
+
 /* FIN: FORMULARIO */
 
 /* FIN: FORMULARIO */
