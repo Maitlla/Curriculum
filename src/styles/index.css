@@ -28,7 +28,7 @@
 
 .flex3 {
     min-width: 20%;
-    height: 97%; 
+    height: 100%; 
     background-color:rgb(238, 238, 238);
     padding-left: 20px;
 }
@@ -76,7 +76,7 @@ h3 {
 
 .circulo {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     border: solid 5px;
     color:rgb(255, 255, 224);
     border-radius: 100px;
@@ -95,7 +95,7 @@ h3 {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 0%;
-   
+    z-index: 2;
 }
 
 .negrita {
@@ -113,18 +113,25 @@ h3 {
 
 .contenedorCurriculum {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 35vw;
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 15%;
     margin-bottom: 5%;
-    border: solid black;
+    border: solid black 6px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    /* Sin la parte de abajo y derecha que cierra la línea del borde */
+    border-bottom: none;
+    border-right: none;
 }
 
 .puntosEnlinea {
-    padding-left: 22%;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .hechizos {
@@ -142,7 +149,7 @@ p.linea {
 
 h2.cursiva {
     font-style: italic;
-    padding-bottom: 50%;
+    padding-bottom: 40%;
 }
 
 .derecha {

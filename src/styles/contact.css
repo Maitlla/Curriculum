@@ -73,7 +73,7 @@ form {
 fieldset {
     font-size: 1em;
     background-color:rgb(238, 238, 238);
-    border: solid black 10px;
+    border: solid black 8px;
     border-top-right-radius: 75px;
     border-bottom-right-radius: 75px;
     border-bottom-left-radius: 75px;
@@ -93,7 +93,7 @@ input[type="submit"]{
     color: white;
     cursor: pointer;
     font-size: 0.8em;
-    margin-top: 2%;
+    margin-top: 5px;
     padding: 1% 1.5% 1% 1.5%;
 }
 
@@ -102,7 +102,7 @@ input[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 90px;
+    padding-top: 100px;
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 40px;

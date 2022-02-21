@@ -64,7 +64,7 @@
                 <div class="formuCentrado enlaces">
                     <fieldset>
                         <legend>Introducir Datos</legend>
-                        <form action="/forms.html" name="guardar">
+                        <form method="GET" action="/forms.html" name="guardar">
                             <table>
                                 <tr>
                                     <td><label for="nombreGuardar">Nombre: </label></td>
@@ -72,15 +72,18 @@
                                 </tr>
                                 <tr>
                                     <td><label for="apellido1Guardar">Apellido1: </label></td>
-                                    <td><br /><input class="celda" id="apellido1Guardar" type="text" name="apellido1" /></td>
+                                    <td><br /><input class="celda" id="apellido1Guardar" type="text" name="apellido1" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><label for="apellido2Guardar">Apellido2: </label></td>
-                                    <td><br /><input class="celda" id="apellido2Guardar" type="text" name="apellido2" /></td>
+                                    <td><br /><input class="celda" id="apellido2Guardar" type="text" name="apellido2" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><br /><label for="telefonoGuardar">Telefono: </label></td>
-                                    <td><br /><input class="celda" id="telefonoGuardar" type="telefono" name="telefono" /></td>
+                                    <td><br /><input class="celda" id="telefonoGuardar" type="telefono"
+                                            name="telefono" /></td>
                                 </tr>
                                 <tr>
                                     <td><br /><label for="emailGuardar">Email: </label></td>
@@ -94,10 +97,6 @@
                                         <input type="radio" id="mujer" name="sexo" value="mujer">
                                         <label for="mujer">Mujer</label><br />
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td><br /><label for="edadGuardar">Edad: </label></td>
-                                    <td><br /><input class="celda" id="edadGuardar" type="edad" name="edad" /></td>
                                 </tr>
                             </table><br />
                             <input type="submit" value="Guardar" name="guardar" />
@@ -136,7 +135,7 @@
                         <p class="espacioInferior">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Eveniet modi neque id officiis commodi earum repellat,
                             totam nam iusto ea sed cumque dolorum ab numquam laudantium provident delectus.
-                            Officiis, velit?</p>
+                            Officiis, velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </li>
                 </ul>
             </div>
@@ -145,7 +144,7 @@
     <!-- <footer> -->
     <footer>
         <div class="pie">
-            <a class="bottom-top" href="#"><i class="fas fa-arrow-up">^</i></a>
+            <a class="bottom-top" href="#">▲</a>
             <p>© Maite Llamas García</p>
         </div>
     </footer>
