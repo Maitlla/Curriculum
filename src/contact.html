@@ -59,7 +59,7 @@
     <!-- contenedor <main> -->
     <main class="flexp">
         <!-- <section> -->
-        <section>
+        <section class="ocupatodo">
             <div class="flex1" id="login">
                 <div class="formuCentrado">
                     <fieldset>
@@ -78,6 +78,15 @@
                                     <td><label for="apellido2Guardar">Apellido2: </label></td>
                                     <td><br /><input id="apellido2Guardar" type="text" name="apellido2" /></td>
                                 </tr>
+                                <tr>
+                                    <td><br /><label for="telefonoGuardar">Telefono: </label></td>
+                                    <td><br /><input id="telefonoGuardar" type="telefono" name="telefono" /></td>
+                                </tr>
+                                <tr>
+                                    <td><br /><label for="emailGuardar">Email: </label></td>
+                                    <td><br /><input id="emailGuardar" type="email" name="email" /></td>
+                                </tr>
+
                                 <tr class="radio">
                                     <td><label>sexo: </label></td>
                                     <td><br />
@@ -91,6 +100,7 @@
                                     <td><br /><label for="edadGuardar">Edad: </label></td>
                                     <td><br /><input id="edadGuardar" type="edad" name="edad" /></td>
                                 </tr>
+
                             </table><br />
                             <input type="submit" value="Guardar" name="guardar" />
                         </form>

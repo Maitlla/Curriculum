@@ -5,21 +5,20 @@
 .flexp {
     display:flex;
     gap: 3%;
-    justify-content:space-around;
+    justify-content:space-between;
     /*border: 2px solid rgb(241, 241, 241); */
 }
 
 .flex1 {
-    width: 75vh;
-    min-width: 45vh;
+    width: 75vw;
+    min-width: 45vw;
     padding: 2%;
 
 }
 
 
 .flex2 {
-    width: 25vh;
-    margin-right: 1.5vh;
+    width: 20vw;
     background-color:rgb(238, 238, 238);
     
 }
@@ -43,41 +42,8 @@
 .laterales {
     padding-right: 3%;
     padding-left: 3%;
-    margin-right: 20px;
 }
 
-
-/* INICIO: FORMULARIO */
-
-legend {
-    font-weight: bold;
-    font-size: 1.7em;
-}
-
-form {
-    font-size: 1.3em;
-    border-radius: 5px;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 4%;
-}
-
-fieldset {
-    font-size: 1em;
-    background-color:rgb(238, 238, 238);
-    width: 100%;
-
-}
-
-input[type="submit"]{
-    border-radius: 10px;
-    background-color: rgb(112, 34, 255);
-    color:#ffffff;
-    cursor: pointer;
-    font-size: 0.8em;
-    margin-top: 4%;
-    padding: 1% 1.5% 1% 1.5%;
-}
 
 /* INICIO: FORMULARIO */
 
@@ -117,10 +83,10 @@ input[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 25%;
+    padding-top: 8%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 30%;
+    padding-bottom: 10%;
 }
 
 .radio {
@@ -130,5 +96,9 @@ input[type="submit"]{
 
 /* FIN: FORMULARIO */
 
-/* FIN: FORMULARIO */
+.ocupatodo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
 

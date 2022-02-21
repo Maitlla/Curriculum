@@ -5,12 +5,12 @@
 .flexp {
     display:flex;
     gap: 3%;
-    justify-content:space-around;
+    justify-content:space-between;
     /*border: 2px solid rgb(241, 241, 241); */
 }
 
 .flex1 {
-    width: 25vh;
+    width: 20vw;
     height: 100vh;
     background-color: black;
     color:white;
@@ -18,19 +18,16 @@
     border: solid black 20px;
 }
 
-
 .flex2 {
-    min-width: 45vh;
-    width: 100vh;
+    min-width: 45vw;
+    width: 100vw;
     height: 100vh;
     padding: 2%;
-    background-color: white;
     
 }
 
 .flex3 {
-    width: 25vh;
-    margin-right: 1.5vh;
+    min-width: 20vw; 
     background-color:rgb(238, 238, 238);
     
 }
@@ -45,14 +42,17 @@ h3 {
 }
 
 .circulo {
-    display: block;
-  
+    position: absolute;
+    z-index: -1;
     border: solid 5px;
     color:rgb(255, 255, 224);
     border-radius: 100px;
     background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
     margin-top: 6%;
-    margin-left: 45%;
+    margin-left: 35%;
+    padding-top: 5%;
+    top: 80px;
+    left:50px;
 }
 
 .habilidades {
@@ -86,8 +86,8 @@ h3 {
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
     border: solid black;
 }
@@ -95,8 +95,6 @@ h3 {
 .puntosEnlinea {
     padding-left: 22%;
 }
-
-
 
 .hechizos {
     color:rgb(255, 147, 6);
@@ -139,7 +137,6 @@ h2.cursiva {
 .laterales {
     padding-right: 3%;
     padding-left: 3%;
-    margin-right: 20px;
 }
 
 

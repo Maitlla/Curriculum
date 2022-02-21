@@ -6,20 +6,18 @@
 .flexp {
     display:flex;
     gap: 3%;
-    justify-content:space-around;
+    justify-content:space-between;
     /*border: 2px solid rgb(241, 241, 241); */
 }
 
 .flex1 {
-    min-width: 45vh;
+    min-width: 45vw;
     padding: 2%;
 
 }
 
-
 .flex2 {
-    width: 25vh;
-    margin-right: 1.5vh;
+    width: 20vw;
     background-color:rgb(238, 238, 238);
     
 }
@@ -44,6 +42,5 @@
 .laterales {
     padding-right: 3%;
     padding-left: 3%;
-    margin-right: 20px;
 }
 
