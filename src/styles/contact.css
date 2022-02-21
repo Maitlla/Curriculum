@@ -16,18 +16,28 @@
 
 }
 
-
 .flex2 {
-    width: 20vw;
+    min-width: 20%;
     background-color:rgb(238, 238, 238);
-    
+    padding-left: 30px;
 }
+
+/* fin Flex */
+
+
+
+/* Al pasar por encima de los h2 se pone de color morado */
+
+h2:hover{
+    color: rgb(112, 34, 255);
+}
+ 
 
 
 /* para dar espacio entre noticias */
 
 .espacioSuperior {
-    padding-top: 5%;
+    padding-top: 20px;
     margin-top: 0%;
 }
 
@@ -36,12 +46,12 @@
 }
 
 .otras {
-    padding-top: 25%;
+    padding-top: 23%;
 }
 
 .laterales {
-    padding-right: 3%;
-    padding-left: 3%;
+    padding-right: 40px;
+    padding-left: 30px;
 }
 
 
@@ -70,36 +80,32 @@ fieldset {
     /* Sin la parte de abajo y derecha que cierra la línea del borde */
     border-bottom: none;
     border-right: none;
-    width: 100%;
-    padding: 3%;
-
-       /*
-    border-bottom-left-radius: 55px;
-    mask-border-slice: ;
-    border: solid black 6px;
-    border-bottom-color: black; */
-
+    width: 90%;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 input[type="submit"]{
     border-radius: 10px;
     background-color: rgb(112, 34, 255);
-    color:#ffffff;
+    color: white;
     cursor: pointer;
     font-size: 0.8em;
-    margin-top: 4%;
+    margin-top: 2%;
     padding: 1% 1.5% 1% 1.5%;
 }
+
 
 .formuCentrado {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 8%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    margin-left: 5%;
+    padding-top: 90px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 40px;
 }
 
 .radio {
@@ -107,7 +113,13 @@ input[type="submit"]{
     align-items: center;
 }
 
+.celda {
+    width: 230px;
+}
+
 /* FIN: FORMULARIO */
+
+
 
 .ocupatodo {
     flex-grow: 1;

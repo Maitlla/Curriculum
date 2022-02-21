@@ -19,7 +19,7 @@
 }
 
 .flex2 {
-    min-width: 45vw;
+    min-width: 44.5vw;
     width: 100vw;
     height: 100vh;
     padding: 2%;
@@ -27,19 +27,35 @@
 }
 
 .flex3 {
-    min-width: 20vw;
+    min-width: 20%;
     height: 97%; 
     background-color:rgb(238, 238, 238);
-    
+    padding-left: 20px;
 }
 
 /* fin Flex */
 
 
+
+/* Al pasar por encima de los h2 se pone de color morado */
+
+h2:hover{
+    color: rgb(112, 34, 255);
+}
+ 
+
+/* Al pasar por encima se ilumina en amarillo */
+
+.ilumina:hover{
+    background: radial-gradient( rgb(250, 221, 90), rgb(255, 242, 182), transparent);
+}
+
+
+
 /* FONDO */
 
 .fondo {
-    background-image: url("./img/acuarelaBosque.png");
+    background-image: url("../img/acuarelaBosque.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -50,6 +66,9 @@
     -webkit-background-size: 100% 100%; /*Safari*/
     background-size: 100% 100%; /*estandar css3*/
 }
+
+
+
 
 h3 {
     text-decoration: underline 1px;
@@ -62,27 +81,25 @@ h3 {
     color:rgb(255, 255, 224);
     border-radius: 100px;
     background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
-    margin-left: 15%;
-   
-    /*margin-top: 6%;
-    margin-left: 35%;
-    padding-top: 5%;
-    top: 80px;
-    left:50px; */
+    margin-left: 17%;
 }
 
 .habilidades {
     position: relative;
     flex-direction: column;
     align-items: center;
-    width: 35vw;
+    width: 15vw;
     padding-right: 10%;
-    padding-left: 20%;
+    padding-left: 25%;
     margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 0%;
    
+}
+
+.negrita {
+    font-weight: bold;
 }
 
 .img {
@@ -101,8 +118,8 @@ h3 {
     width: 35vw;
     padding-right: 10%;
     padding-left: 10%;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     border: solid black;
 }
 
@@ -137,7 +154,7 @@ h2.cursiva {
 /* para dar espacio entre noticias */
 
 .espacioSuperior {
-    padding-top: 25%;
+    padding-top: 20px;
     margin-top: 0%;
 }
 
@@ -150,8 +167,8 @@ h2.cursiva {
 }
 
 .laterales {
-    padding-right: 3%;
-    padding-left: 3%;
+    padding-right: 40px;
+    padding-left: 30px;
 }
 
 
