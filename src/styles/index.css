@@ -1,25 +1,102 @@
+/* MAIN */
+
+/* para el Flex */
+
+.flexp {
+    display:flex;
+    gap: 3%;
+    justify-content:space-around;
+    /*border: 2px solid rgb(241, 241, 241); */
+}
+
+.flex1 {
+    width: 25vh;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    padding-left: 1%;
+    border: solid black 20px;
+}
+
+
+.flex2 {
+    min-width: 45vh;
+    width: 100vh;
+    height: 100vh;
+    padding: 2%;
+    background-color: white;
+    
+}
+
+.flex3 {
+    width: 25vh;
+    margin-right: 1.5vh;
+    background-color:rgb(238, 238, 238);
+    
+}
+
+/* fin Flex */
+
+/* fondo página */
+
+
 h3 {
     text-decoration: underline 1px;
-
 }
 
 .circulo {
     display: block;
-    margin: auto;
+  
     border: solid 5px;
     color:rgb(255, 255, 224);
     border-radius: 100px;
     background: radial-gradient(transparent, transparent ,rgb(255, 255, 231), rgb(253, 253, 201));
-    
+    margin-top: 6%;
+    margin-left: 45%;
+}
+
+.habilidades {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+   
 }
 
 .img {
     display: block;
-    margin: 2%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    border-radius: 100px;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: 12%;
+    border-radius: 100vh;
 }
+
+
+.contenedorCurriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border: solid black;
+}
+
+.puntosEnlinea {
+    padding-left: 22%;
+}
+
+
 
 .hechizos {
     color:rgb(255, 147, 6);
@@ -36,12 +113,36 @@ p.linea {
 
 h2.cursiva {
     font-style: italic;
-    padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 50%;
 }
 
 .derecha {
     text-align: right;
 }
+
+
+/* para dar espacio entre noticias */
+
+.espacioSuperior {
+    padding-top: 25%;
+    margin-top: 0%;
+}
+
+.espacioInferior {
+    padding-bottom: 15%;
+}
+
+.otras {
+    padding-top: 25%;
+}
+
+.laterales {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-right: 20px;
+}
+
+
+
 
 
