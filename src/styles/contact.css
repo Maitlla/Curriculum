@@ -63,9 +63,21 @@ form {
 fieldset {
     font-size: 1em;
     background-color:rgb(238, 238, 238);
+    border: solid black 10px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    /* Sin la parte de abajo y derecha que cierra la línea del borde */
+    border-bottom: none;
+    border-right: none;
     width: 100%;
     padding: 3%;
 
+       /*
+    border-bottom-left-radius: 55px;
+    mask-border-slice: ;
+    border: solid black 6px;
+    border-bottom-color: black; */
 
 }
 
