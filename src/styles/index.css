@@ -23,7 +23,7 @@
     width: 100vw;
     height: 100vh;
     padding: 2%;
-    
+ 
 }
 
 .flex3 {
@@ -37,6 +37,20 @@
 
 /* fondo página */
 
+/* FONDO */
+
+.fondo {
+    background-image: url("./img/acuarelaBosque.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-position: center bottom; */
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+}
 
 h3 {
     text-decoration: underline 1px;
@@ -118,6 +132,7 @@ h2.cursiva {
 .derecha {
     text-align: right;
 }
+
 
 
 /* para dar espacio entre noticias */
