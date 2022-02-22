@@ -55,3 +55,12 @@ h2:hover{
     padding-left: 30px;
 }
 
+.parlamento {
+    width: 98%;
+    height: 98%;
+}
+
+.noticiaAmpliada {
+    text-align: center;
+    font-style: italic;
+}
